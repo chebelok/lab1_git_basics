@@ -4,6 +4,25 @@ import java.util.Scanner;
 
 class Equation {
 
+    static double iModeInput(String coef) {
+        Scanner sc = new Scanner(System.in);
+        boolean success = false;
+        String tmp = null;
+        double cf = 0;
+        while (!success) {
+            try {
+                System.out.print(coef + "= ");
+                tmp = sc.nextLine();
+                cf = Double.parseDouble(tmp);
+                if( coef.equals("a") && cf == 0)  throw new Exception();
+                success = true;
+            } catch (Exception e) {
+                System.out.println("Error. Expected a valid real number, got " + tmp + " instead. Please try again");
+            }
+        }
+        return cf;
+    }
+
         static void coreLogic(double  a, double b, double c){
             System.out.printf("Equation is: (%s) x^2 + (%s) x + (%s) = 0\n",a, b, c);
             double D = b*b - 4*a*c;
