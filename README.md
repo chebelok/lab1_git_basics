@@ -26,4 +26,5 @@ For non-interactive type this and do not forget include file:
  java Main test.txt
  ```
 
-Link to revert commit: 
+Link to revert commit:
+https://github.com/chebelok/lab1_git_basics/commit/fa87631b045c8602a5aac58c750985ff8824cfaa
