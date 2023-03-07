@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e429a9eb-459f-4874-9d5f-5e9019fdd731" name="Changes" comment="" />
+    <list default="true" id="e429a9eb-459f-4874-9d5f-5e9019fdd731" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676988458682</updated>
       <workItem from="1676988459902" duration="18975000" />
-      <workItem from="1677943077537" duration="33303000" />
+      <workItem from="1677943077537" duration="33924000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676988479834</created>
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678156573441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added readme">
+      <created>1678156817956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678156817956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +128,8 @@
     <MESSAGE value="added interactive mode function" />
     <MESSAGE value="added if statement for choosing mode" />
     <MESSAGE value="added file mode and two txt file for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added file mode and two txt file for test" />
+    <MESSAGE value="added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
