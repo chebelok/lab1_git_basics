@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676988458682</updated>
       <workItem from="1676988459902" duration="18975000" />
-      <workItem from="1677943077537" duration="33924000" />
+      <workItem from="1677943077537" duration="34349000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676988479834</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678156817956</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed readme">
+      <created>1678157398640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678157398640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +136,8 @@
     <MESSAGE value="added if statement for choosing mode" />
     <MESSAGE value="added file mode and two txt file for test" />
     <MESSAGE value="added readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added readme" />
+    <MESSAGE value="changed readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
