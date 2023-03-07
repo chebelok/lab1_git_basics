@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 class Equation {
 
+    static void iMode(){
+        double a = iModeInput("a");
+        double b = iModeInput("b");
+        double c = iModeInput("c");
+        coreLogic(a, b, c);
+    }
+
     static double iModeInput(String coef) {
         Scanner sc = new Scanner(System.in);
         boolean success = false;
