@@ -30,6 +30,27 @@ class Equation {
         return cf;
     }
 
+    static void fMode(String[] args)  {
+        try{
+            File abc = new File(args[0]);
+            Scanner reader = new Scanner(abc);
+            String data  = reader.nextLine();
+            String[] coeff = data.split("\\s");
+            double a = Double.parseDouble(coeff[0]);
+            double b = Double.parseDouble(coeff[1]);
+            double c = Double.parseDouble(coeff[2]);
+            if(a == 0) throw new Exception("a cannot be 0");
+            coreLogic(a, b, c);
+            System.out.println(coeff[1]);
+        }catch (IOException e) {
+            System.out.println("file " + args[0] + " does not exist");
+        } catch (NumberFormatException e) {
+            System.out.println("invalid file format");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
         static void coreLogic(double  a, double b, double c){
             System.out.printf("Equation is: (%s) x^2 + (%s) x + (%s) = 0\n",a, b, c);
             double D = b*b - 4*a*c;
